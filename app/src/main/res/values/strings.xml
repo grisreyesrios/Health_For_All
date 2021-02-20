@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthForAll</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="loginbutton">Login</string>
+    <string name="signupbutton">Sign Up</string>
+    <string name="signuptextview">Not registered? Sign Up</string>
+    <string name="alregisterestextview">Already registered? Login</string>
+    <string name="maintext">Click on a disease to discover how to fight it naturally!</string>
+    <string-array name="CVDList">
+        <item>Nitrates found in leafy greens (arugula, collards) and beetroot</item>
+        <item>Garlic</item>
+        <item>Vitamin K</item>
+        <item>Berberine</item>
+        <item>Coenzyme Q10</item>
+        <item> Magnesium</item>
+        <item>Omega 3s</item>
+        <item>Green tea</item>
+    </string-array>
+    <string-array name="Cancer">
+        <item>Flaxseeds</item>
+        <item>Green Tea</item>
+        <item>Garlic</item>
+        <item>Slenium</item>
+        <item>Ginger</item>
+        <item>Tumeric</item>
+        <item>Vitamin D3</item>
+        <item>Panax Ginseg</item>
+    </string-array>
+
+</resources>
