@@ -24,7 +24,11 @@ class MainActivity : AppCompatActivity() {
         binding.recycler.layoutManager = LinearLayoutManager(this)
         binding.recycler.adapter = DiseaseAdapter(titleslist, imageslist)
 
+        initRecyclerView()
+
+
     }
+
 
     private fun addtoList(title: String, image: Int){
 
@@ -39,5 +43,12 @@ class MainActivity : AppCompatActivity() {
         addtoList("Osteoporosis", R.drawable.disease_osteoporosis)
         addtoList("Neurodegenerative diseases", R.drawable.disease_mentaldiseases)
 
+    }
+
+    private fun initRecyclerView(){
+        binding.recycler.apply {
+            val topSpacingItemDecoration = TopSpacingItemDecoration(padding = 30)
+            addItemDecoration(topSpacingItemDecoration)
+        }
     }
 }

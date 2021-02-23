@@ -22,6 +22,8 @@ class DiseaseAdapter(private var title:List<String>, private var images:List<Int
            init {
                itemView.setOnClickListener { v: View? ->
 
+
+
                }
            }
 
@@ -40,5 +42,6 @@ class DiseaseAdapter(private var title:List<String>, private var images:List<Int
     override fun getItemCount(): Int {
         return title.size
     }
+
 
 }
