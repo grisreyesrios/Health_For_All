@@ -7,25 +7,60 @@
     <string name="signuptextview">Not registered? Sign Up</string>
     <string name="alregisterestextview">Already registered? Login</string>
     <string name="maintext">Click on a disease to discover how to fight it naturally!</string>
+    <string-array name="Cancer">
+        <item>Flaxseeds</item>
+        <item>Green Tea</item>
+        <item>Garlic</item>
+        <item>Selenium</item>
+        <item>Ginger</item>
+        <item>Turmeric</item>
+        <item>Vitamin D3</item>
+        <item>Panax Ginseg</item>
+    </string-array>
+    <string-array name="Diabetes2">
+        <item>Fenugreek (seeds)</item>
+        <item>Magnesium</item>
+        <item>Zn</item>
+        <item>Resveratrol</item>
+        <item>Carnitine</item>
+        <item>Green tea catechins</item>
+        <item>Chlorogenic acid (CGA)</item>
+        <item>Cinnamon (Ceylon cinnamon)</item>
+        <item>Vitamin D</item>
+        <item>Panax Ginseng</item>
+    </string-array>
     <string-array name="CVDList">
         <item>Nitrates found in leafy greens (arugula, collards) and beetroot</item>
         <item>Garlic</item>
         <item>Vitamin K</item>
         <item>Berberine</item>
+        <item>Taurine</item>
         <item>Coenzyme Q10</item>
-        <item> Magnesium</item>
+        <item>Magnesium</item>
         <item>Omega 3s</item>
         <item>Green tea</item>
     </string-array>
-    <string-array name="Cancer">
-        <item>Flaxseeds</item>
-        <item>Green Tea</item>
-        <item>Garlic</item>
-        <item>Slenium</item>
-        <item>Ginger</item>
-        <item>Tumeric</item>
-        <item>Vitamin D3</item>
-        <item>Panax Ginseg</item>
+    <string-array name="Osteoporosis">
+        <item>Vitamin K</item>
+        <item>Magnesium</item>
+        <item>ELP</item>
+        <item>Calcium</item>
+        <item>Vitamin D</item>
+        <item>Boron</item>
+        <item>Potassium</item>
+        <item>Glucosamine</item>
+        <item>Green tea</item>
     </string-array>
+    <string-array name="NeuroDisease">
+        <item>Cocoa (cocoa extract)</item>
+        <item>Curcumin</item>
+        <item>Green tea</item>
+        <item>Vitamin D3</item>
+        <item>Omega 3s</item>
+        <item>Caffeine</item>
+        <item>Apigenin</item>
+        <item>MIND Diet</item>
+    </string-array>
+
 
 </resources>

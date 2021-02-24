@@ -1,12 +1,16 @@
 package com.kaaxkankayotl.healthforall
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.kaaxkankayotl.healthforall.databinding.ActivityCancerBinding
 import com.kaaxkankayotl.healthforall.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(){
 
     private lateinit var binding: ActivityMainBinding
 
@@ -19,12 +23,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        postList()
 
         binding.recycler.layoutManager = LinearLayoutManager(this)
         binding.recycler.adapter = DiseaseAdapter(titleslist, imageslist)
 
         initRecyclerView()
+        postList()
 
 
     }
@@ -52,3 +56,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
