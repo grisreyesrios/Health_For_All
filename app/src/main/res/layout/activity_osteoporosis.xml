@@ -6,38 +6,41 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background"
-    tools:context=".activity_diabetes">
-
+    tools:context=".activity_osteoporosis">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/text_view_list_diabetes"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="76dp"
+        android:id="@+id/text_view_list_osteoporosis"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="30dp"
-        android:src="@drawable/disease_diabetestype2"
+        android:src="@drawable/disease_osteoporosis"
         app:civ_border_color="@color/letters"
         app:civ_border_width="3dp"
-        app:layout_constraintBottom_toTopOf="@+id/diabeteslist"
+        app:layout_constraintBottom_toTopOf="@+id/osteoporosislist"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
         tools:ignore="MissingConstraints" />
 
     <ListView
-        android:id="@+id/diabeteslist"
+        android:id="@+id/osteoporosislist"
         style="@style/Widget.AppCompat.ListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="412dp"
+        android:layout_height="426dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:entries="@array/Diabetes2"
+        android:entries="@array/Osteoporosis"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.903" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

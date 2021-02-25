@@ -47,6 +47,14 @@ class DiseaseAdapter(private var title:List<String>, private var images:List<Int
                 val intent = Intent(holder.itemView.context, cvdlist::class.java)
                 holder.itemView.context.startActivity(intent)
             }
+            if (position  == 3){
+                val intent = Intent(holder.itemView.context, activity_osteoporosis::class.java)
+                holder.itemView.context.startActivity(intent)
+            }
+            if (position  == 4){
+                val intent = Intent(holder.itemView.context, activity_neurodegenerative::class.java)
+                holder.itemView.context.startActivity(intent)
+            }
 
         }
 

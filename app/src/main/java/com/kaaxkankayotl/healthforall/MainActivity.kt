@@ -43,9 +43,9 @@ class MainActivity : AppCompatActivity(){
     private fun postList(){
         addtoList("Cancer", R.drawable.disease_cancer)
         addtoList("Type 2 Diabetes", R.drawable.disease_diabetestype2)
-        addtoList(" Cardiovascular diseases", R.drawable.disease_cvd)
+        addtoList(" Cardiovascular", R.drawable.disease_cvd)
         addtoList("Osteoporosis", R.drawable.disease_osteoporosis)
-        addtoList("Neurodegenerative diseases", R.drawable.disease_mentaldiseases)
+        addtoList("Neurodegenerative", R.drawable.disease_mentaldiseases)
 
     }
 

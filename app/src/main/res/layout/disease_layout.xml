@@ -11,7 +11,7 @@
     android:layout_marginRight="10dp"
     android:layout_marginTop="10dp"
     android:clickable="true"
-    app:cardBackgroundColor="@color/background"
+    app:cardBackgroundColor="@color/letters"
     app:cardCornerRadius="40dp"
     app:cardElevation="80dp"
     app:cardPreventCornerOverlap="false"
@@ -23,14 +23,13 @@
 
 
         <de.hdodenhof.circleimageview.CircleImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/disease_image"
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_marginEnd="30dp"
             android:src="@drawable/disease_cancer"
-            app:civ_border_color="@color/letters"
-            app:civ_border_width="5dp"
+            app:civ_border_color="@color/background"
+            app:civ_border_width="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/disease_name"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,22 +38,21 @@
 
         <TextView
             android:id="@+id/disease_name"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="167dp"
+            android:layout_height="27dp"
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:textAlignment="center"
-            android:textColor="@color/letters"
-            android:textSize="18dp"
+            android:textColor="@color/background"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/disease_image"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.511" />
+            app:layout_constraintVertical_bias="0.516" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
