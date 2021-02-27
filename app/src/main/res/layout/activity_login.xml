@@ -14,13 +14,14 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         app:srcCompat="@drawable/logo_transparent" />
 
     <EditText
         android:id="@+id/userET"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textColor="@color/letters"
@@ -31,7 +32,8 @@
     <EditText
         android:id="@+id/passET"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
@@ -41,12 +43,14 @@
     <TextView
         android:id="@+id/already_registered"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:clickable="true"
         android:text="@string/alregisterestextview"
+        android:textSize="20dp"
         android:textAlignment="center"
         />
 
@@ -57,19 +61,10 @@
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@color/letters"
         android:text= "@string/signupbutton" />
 
-    <TextView
-        android:id="@+id/textviewresponse"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/letters"
-        android:textAlignment="center"/>
 
 
 </LinearLayout>

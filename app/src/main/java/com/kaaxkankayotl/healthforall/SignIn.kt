@@ -3,6 +3,7 @@ package com.kaaxkankayotl.healthforall
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -31,7 +32,9 @@ class SignIn : AppCompatActivity() {
 
         binding.buttonsignin.setOnClickListener {
             if (binding.userETSign.text.toString().isNullOrEmpty() || binding.passETSign.text.toString().isNullOrEmpty()) {
-                binding.textviewresponse2.text = "Email Address or Password is not provided"
+                val toast = Toast.makeText(applicationContext, "Email Address or Password is not provided",
+                    Toast.LENGTH_SHORT)
+                toast.show()
             } else {
                 auth.signInWithEmailAndPassword(binding.userETSign.text.toString(), binding.passETSign.text.toString())
                     .addOnCompleteListener(this) { task ->
@@ -39,7 +42,9 @@ class SignIn : AppCompatActivity() {
                             val user = auth.currentUser
                             updateUI(user, binding.userETSign.text.toString() )
                         } else {
-                            binding.textviewresponse2.text = "Invalid Email or Password"
+                            val toast = Toast.makeText(applicationContext, "Invalid Email or Password",
+                                Toast.LENGTH_SHORT)
+                            toast.show()
                         }
                     }
             }
@@ -49,7 +54,6 @@ class SignIn : AppCompatActivity() {
     private fun updateUI(currentUser: FirebaseUser?, emailAdd: String) {
     if(currentUser !=null){
         val intent = Intent(this, MainActivity::class.java)
-        intent.putExtra("emailAddress", emailAdd);
         startActivity(intent)
         finish()
     }

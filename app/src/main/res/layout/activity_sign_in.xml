@@ -13,14 +13,15 @@
     <ImageView
     android:id="@+id/imageView2"
     android:layout_width="match_parent"
-    android:layout_height="150dp"
+    android:layout_height="200dp"
     android:layout_marginTop="50dp"
     app:srcCompat="@drawable/logo_transparent" />
 
     <EditText
         android:id="@+id/userET_sign"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textColor="@color/letters"
@@ -31,7 +32,8 @@
     <EditText
         android:id="@+id/passET_sign"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
@@ -41,36 +43,27 @@
     <TextView
         android:id="@+id/already_signup"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:clickable="true"
         android:text="@string/signuptextview"
+        android:textSize="20dp"
         android:textAlignment="center" />
 
 
     <Button
         android:id="@+id/buttonsignin"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:background="@color/letters"
         android:text="@string/loginbutton" />
-
-    <TextView
-        android:id="@+id/textviewresponse2"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/letters"
-        android:textAlignment="center"/>
-
 
 
 </LinearLayout>

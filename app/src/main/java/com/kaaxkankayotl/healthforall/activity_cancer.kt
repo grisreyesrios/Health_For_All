@@ -15,6 +15,7 @@ class activity_cancer : AppCompatActivity() {
         binding = ActivityCancerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.cancerlist.setOnItemClickListener { parent, view, position, id ->  }
 
 
     }

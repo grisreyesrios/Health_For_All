@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(){
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
 
         binding.recycler.layoutManager = LinearLayoutManager(this)
         binding.recycler.adapter = DiseaseAdapter(titleslist, imageslist)
