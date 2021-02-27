@@ -6,7 +6,7 @@
     <string name="signupbutton">Sign Up</string>
     <string name="signuptextview">Not registered? Sign Up</string>
     <string name="alregisterestextview">Already registered? Login</string>
-    <string name="maintext">Click on a disease to discover how to fight it naturally!</string>
+    <string name="maintext">Click on a disease to discover how to support healing and prevention</string>
     <string-array name="Cancer">
         <item>Flaxseeds</item>
         <item>Green Tea</item>
@@ -23,14 +23,14 @@
         <item>Zn</item>
         <item>Resveratrol</item>
         <item>Carnitine</item>
-        <item>Green tea catechins</item>
+        <item>Green tea</item>
         <item>Chlorogenic acid (CGA)</item>
-        <item>Cinnamon (Ceylon cinnamon)</item>
+        <item>Cinnamon</item>
         <item>Vitamin D</item>
         <item>Panax Ginseng</item>
     </string-array>
     <string-array name="CVDList">
-        <item>Nitrates found in leafy greens (arugula, collards) and beetroot</item>
+        <item>Nitrates</item>
         <item>Garlic</item>
         <item>Vitamin K</item>
         <item>Berberine</item>
@@ -52,7 +52,7 @@
         <item>Green tea</item>
     </string-array>
     <string-array name="NeuroDisease">
-        <item>Cocoa (cocoa extract)</item>
+        <item>Cocoa</item>
         <item>Curcumin</item>
         <item>Green tea</item>
         <item>Vitamin D3</item>
