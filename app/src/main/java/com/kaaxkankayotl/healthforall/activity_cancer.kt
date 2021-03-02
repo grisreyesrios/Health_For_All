@@ -1,9 +1,13 @@
 package com.kaaxkankayotl.healthforall
 
-import androidx.appcompat.app.AppCompatActivity
+import android.R
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import com.kaaxkankayotl.healthforall.databinding.ActivityCancerBinding
-import com.kaaxkankayotl.healthforall.databinding.ActivityMainBinding
+
 
 class activity_cancer : AppCompatActivity() {
 
@@ -15,7 +19,15 @@ class activity_cancer : AppCompatActivity() {
         binding = ActivityCancerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.cancerlist.setOnItemClickListener { parent, view, position, id ->  }
+        binding.cancerlist.setOnItemClickListener { parent, view, position, id ->
+
+            if(position == 0){
+
+
+
+            }
+
+        }
 
 
     }

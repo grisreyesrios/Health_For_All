@@ -61,6 +61,27 @@
         <item>Apigenin</item>
         <item>Mediterranean-DASH Diet</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_cancer_flax_fragment">Flaxseeds</string>
+    <string name="hello_cancer_flax_primero">Around 500 B.C., Hippocrates wrote about flaxseed\nbeing
+        a laxative, and pioneers in North America made flaxseed dressings for cuts and burns.\n
+        Flaxseed contains fiber, which generally helps with constipation.\n
+        The recommended amount per day: 1 tablespoon ground.\n
+        There is scientific evidence that flaxseeds:\n
+        May inhibit the growth and metastasis of human breast and melanoma cancers.
+        Lowers tumor biomarkers in patients with breast cancer.\n
+        Use for cancer prevention.
+    </string>
+    <string name="hello_cancer_flax_fragment_title_2">Safety</string>
+    <string name="hello_cancer_flax_segundo">
+        Don’t eat raw or unripe flaxseeds, which may contain potentially toxic compounds\n
+        (grind the seeds before you consume them). Flaxseeds seem to be well tolerated in limited amounts.\n
+        Few side effects have been reported. Avoid flaxseeds during pregnancy as they may have mild\n
+        hormonal effects. Like any fiber supplement, flaxseed should be taken with plenty of water,\n
+        as it could worsen constipation or, in rare cases, cause an intestinal blockage.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
