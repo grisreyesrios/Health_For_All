@@ -3,6 +3,7 @@ package com.kaaxkankayotl.healthforall
 import android.R
 import android.content.Intent
 import android.os.Bundle
+import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
@@ -19,16 +20,59 @@ class activity_cancer : AppCompatActivity() {
         binding = ActivityCancerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.cancerlist.setOnItemClickListener { parent, view, position, id ->
 
-            if(position == 0){
 
+            if (position == 0){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
 
+            if (position == 1){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
 
+            if (position == 2){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
+
+            if (position == 3){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
+            if (position == 4){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
+            if (position == 5){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
+            if (position == 6){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
             }
 
         }
 
 
     }
+
 }
