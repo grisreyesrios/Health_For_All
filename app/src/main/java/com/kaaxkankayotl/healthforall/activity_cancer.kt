@@ -69,6 +69,12 @@ class activity_cancer : AppCompatActivity() {
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
+            if (position == 7){
+                val templistviewclickedvalue: String = position.toString()
+                val intent = Intent(view.context, Activity_Cancer_Supplements::class.java)
+                intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
+                view.context.startActivity(intent)
+            }
 
         }
 
