@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@color/background"
-    tools:context=".Activity_Cancer_Supplements">
+    tools:context=".activity_diabetes_supplements">
 
     <WebView
-        android:id="@+id/webviewcancersuplements"
+        android:id="@+id/webviewdiabetessupplements"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="5dp"
