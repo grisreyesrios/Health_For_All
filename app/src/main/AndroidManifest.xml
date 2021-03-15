@@ -11,6 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthForAll">
+        <activity android:name=".activity_osteoporosis_supplements"
+            android:label="Osteoporosis"
+            android:launchMode="singleTop">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_osteoporosis" />
+
+        </activity>
+        <activity android:name=".activity_cvd_supplements"
+            android:label="Cardiovascular Diseases"
+            android:launchMode="singleTop" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_cancer" />
+         </activity>
         <activity
             android:name=".Activity_Cancer_Supplements"
             android:label="Cancer"
@@ -19,7 +35,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_cancer" />
         </activity>
-        <activity android:name=".activity_diabetes_supplements"
+        <activity
+            android:name=".activity_diabetes_supplements"
             android:label="Type 2 Diabetes"
             android:launchMode="singleTop">
             <meta-data
