@@ -6,7 +6,9 @@
     <string name="signupbutton">Sign Up</string>
     <string name="signuptextview">Not registered? Sign Up</string>
     <string name="alregisterestextview">Already registered? Login</string>
-    <string name="maintext">Click on a disease to discover how to support healing and prevention</string>
+    <string name="welcome">Welcome</string>
+    <string name="maintext">Click on a disease to discover ...</string>
+    <string name="maintext2">How to support healing and prevention</string>
     <string-array name="Cancer">
         <item>Flaxseeds</item>
         <item>Green Tea</item>
