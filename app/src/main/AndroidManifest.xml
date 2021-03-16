@@ -11,22 +11,30 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthForAll">
-        <activity android:name=".activity_osteoporosis_supplements"
+        <activity android:name=".activity_neurodegenerative_suplements"
+            android:label="Neurodegenerative Diseases"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_neurodegenerative" />
+
+        </activity>
+        <activity
+            android:name=".activity_osteoporosis_supplements"
             android:label="Osteoporosis"
             android:launchMode="singleTop">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_osteoporosis" />
-
         </activity>
-        <activity android:name=".activity_cvd_supplements"
+        <activity
+            android:name=".activity_cvd_supplements"
             android:label="Cardiovascular Diseases"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_cancer" />
-         </activity>
+        </activity>
         <activity
             android:name=".Activity_Cancer_Supplements"
             android:label="Cancer"
