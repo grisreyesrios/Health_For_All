@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diabetes_biblio">
+
+    <WebView
+        android:id="@+id/webview_diabetes_biblio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C48EF6"
+        android:backgroundTint="#C48EF6"
+        android:backgroundTintMode="src_atop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/diabetes_biblio_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#C48EF6"
+        android:backgroundTint="#C48EF6"
+        android:backgroundTintMode="screen"
+        android:foregroundTint="#C48EF6"
+        android:indeterminate="false"
+        android:indeterminateTint="#C48EF6"
+        android:progressTint="#C48EF6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

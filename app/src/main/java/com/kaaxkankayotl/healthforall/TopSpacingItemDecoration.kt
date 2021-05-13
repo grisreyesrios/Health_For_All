@@ -11,4 +11,5 @@ class TopSpacingItemDecoration(private val padding: Int): RecyclerView.ItemDecor
 
         outRect.top = padding
     }
+
 }

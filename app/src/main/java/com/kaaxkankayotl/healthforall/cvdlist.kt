@@ -74,5 +74,11 @@ class cvdlist : AppCompatActivity() {
             }
         }
 
+        binding.textviewcvdBiblio.setOnClickListener {
+            val intent = Intent(this, cvd_biblio::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

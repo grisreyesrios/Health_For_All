@@ -3,12 +3,17 @@
     <string name="username">Email</string>
     <string name="password">Password</string>
     <string name="loginbutton">Login</string>
+    <string name="forgetpasswordbutton">Submit</string>
+    <string name="forgetpasswordtext">Introduce your email and we will send you an email to reset password</string>
     <string name="signupbutton">Sign Up</string>
+    <string name="password_forget">Forget password?</string>
     <string name="signuptextview">Not registered? Sign Up</string>
     <string name="alregisterestextview">Already registered? Login</string>
     <string name="welcome">Welcome</string>
     <string name="maintext">Click on a disease to discover ...</string>
     <string name="maintext2">How to support healing and prevention...</string>
+    <string name="cancer_sources">Cancer Sources</string>
+    <string name="sources_textview">Click here to look at our sources..</string>
     <string-array name="Cancer">
         <item>Flaxseeds</item>
         <item>Green Tea</item>

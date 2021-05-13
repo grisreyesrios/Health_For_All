@@ -11,19 +11,35 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/text_view_list_neurodegenerative"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="30dp"
         android:src="@drawable/disease_mentaldiseases"
         app:civ_border_color="@color/letters"
         app:civ_border_width="3dp"
-        app:layout_constraintBottom_toTopOf="@+id/neurodegenerativelist"
+        app:layout_constraintBottom_toTopOf="@+id/textview_neuro_biblio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview_neuro_biblio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/sources_textview"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/letters"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/neurodegenerativelist"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_list_neurodegenerative"
+        android:focusable="true" />
 
     <ListView
         android:id="@+id/neurodegenerativelist"
@@ -31,14 +47,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:entries="@array/NeuroDisease"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_neuro_biblio"
         app:layout_constraintVertical_bias="0.876" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

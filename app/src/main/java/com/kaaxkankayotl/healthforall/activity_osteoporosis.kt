@@ -18,49 +18,49 @@ class activity_osteoporosis : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.osteoporosislist.setOnItemClickListener { parent, view, position, id ->
-            if (position == 0){
+            if (position == 0) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 1){
+            if (position == 1) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 2){
+            if (position == 2) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 3){
+            if (position == 3) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 4){
+            if (position == 4) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 5){
+            if (position == 5) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 6){
+            if (position == 6) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
                 view.context.startActivity(intent)
             }
-            if (position == 7){
+            if (position == 7) {
                 val templistviewclickedvalue: String = position.toString()
                 val intent = Intent(view.context, activity_osteoporosis_supplements::class.java)
                 intent.putExtra("ListViewClickedValue", templistviewclickedvalue)
@@ -68,6 +68,10 @@ class activity_osteoporosis : AppCompatActivity() {
             }
         }
 
-
+        binding.textviewOsteoBiblio.setOnClickListener {
+            val intent = Intent(this, osteo_biblio::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }

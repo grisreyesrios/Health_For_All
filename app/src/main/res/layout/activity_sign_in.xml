@@ -41,12 +41,25 @@
         android:hint="Password" />
 
     <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:text="@string/password_forget"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <TextView
         android:id="@+id/already_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_weight="0.3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:clickable="true"
         android:text="@string/signuptextview"

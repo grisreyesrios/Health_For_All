@@ -82,6 +82,12 @@ class activity_diabetes : AppCompatActivity() {
                 view.context.startActivity(intent)
             }
         }
+
+        binding.textviewDiabetesBiblio.setOnClickListener {
+            val intent = Intent(this, diabetes_biblio::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
 }

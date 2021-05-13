@@ -24,11 +24,19 @@ class SignIn : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        binding.password.setOnClickListener {
+            val intent = Intent(this, forgetpassword::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         binding.alreadySignup.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
             finish()
         }
+
+
 
         binding.buttonsignin.setOnClickListener {
             if (binding.userETSign.text.toString().isNullOrEmpty() || binding.passETSign.text.toString().isNullOrEmpty()) {

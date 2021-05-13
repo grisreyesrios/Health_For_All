@@ -70,5 +70,11 @@ class activity_neurodegenerative : AppCompatActivity() {
             }
         }
 
+        binding.textviewNeuroBiblio.setOnClickListener {
+            val intent = Intent(this, neuro_biblio::class.java)
+            startActivity(intent)
+            finish()
+        }
+
     }
 }

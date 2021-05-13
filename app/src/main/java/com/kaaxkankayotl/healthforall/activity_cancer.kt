@@ -78,6 +78,11 @@ class activity_cancer : AppCompatActivity() {
 
         }
 
+        binding.textviewCancerBiblio.setOnClickListener {
+            val intent = Intent(this, CancerBiblio::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
 

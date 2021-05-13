@@ -8,16 +8,58 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:noHistory="true"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthForAll">
-        <activity android:name=".activity_neurodegenerative_suplements"
+        <activity android:name=".forgetpassword"></activity>
+        <activity
+            android:name=".neuro_biblio"
+            android:label="Neurodegenerative Diseases Sources"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_neurodegenerative_suplements" />
+        </activity>
+        <activity
+            android:name=".osteo_biblio"
+            android:label="Osteoporosis Sources"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_osteoporosis_supplements" />
+        </activity>
+        <activity
+            android:name=".cvd_biblio"
+            android:label="Cardiovascular Diseases Sources"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_cvd_supplements" />
+        </activity>
+        <activity
+            android:name=".diabetes_biblio"
+            android:label="Type 2 Diabetes Sources"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_diabetes_supplements" />
+        </activity>
+        <activity
+            android:name=".CancerBiblio"
+            android:label="Cancer Sources"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity_Cancer_Supplements" />
+        </activity>
+        <activity
+            android:name=".activity_neurodegenerative_suplements"
             android:label="Neurodegenerative Diseases"
             android:launchMode="singleTop">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activity_neurodegenerative" />
-
         </activity>
         <activity
             android:name=".activity_osteoporosis_supplements"
