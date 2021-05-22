@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.auth.FirebaseAuth
 import com.kaaxkankayotl.healthforall.databinding.ActivityCancerBinding
 import com.kaaxkankayotl.healthforall.databinding.ActivityMainBinding
 
@@ -30,6 +31,14 @@ class MainActivity : AppCompatActivity(){
 
         initRecyclerView()
         postList()
+
+        binding.logout.setOnClickListener {
+
+            FirebaseAuth.getInstance().signOut()
+            startActivity(Intent(this@MainActivity, SignIn::class.java))
+            finish()
+
+        }
 
 
     }

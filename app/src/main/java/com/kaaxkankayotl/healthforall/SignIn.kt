@@ -22,6 +22,8 @@ class SignIn : AppCompatActivity() {
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
+
         auth = Firebase.auth
 
         binding.password.setOnClickListener {

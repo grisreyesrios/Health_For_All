@@ -25,6 +25,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/textsubmenumain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewmain"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exit" />
+
     <TextView
         android:id="@+id/textsubmenumain"
         android:layout_width="match_parent"
@@ -77,4 +88,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textsubmenumain"
         app:layout_constraintVertical_bias="0.837"
         tools:listitem="@layout/disease_layout" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,7 +52,7 @@ class Login : AppCompatActivity() {
                                 val user = auth.currentUser
                                 updateUI(user)
                             } else {
-                                val toast = Toast.makeText(applicationContext, "Sign Up successfully. You are already register or",
+                                val toast = Toast.makeText(applicationContext, "You are already register or there was a problem",
                                     Toast.LENGTH_SHORT)
                                 toast.show()
                                 updateUI(null)
@@ -73,6 +73,8 @@ class Login : AppCompatActivity() {
 
     private fun updateUI(currentUser: FirebaseUser?) {
         val intent = Intent(this, MainActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
+        finish()
     }
 }
