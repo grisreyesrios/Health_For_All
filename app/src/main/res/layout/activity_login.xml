@@ -26,6 +26,8 @@
         android:layout_marginRight="20dp"
         android:textColor="@color/letters"
         android:inputType="textEmailAddress"
+        app:errorEnabled="true"
+        app:errorIconDrawable = "@null"
         android:hint="Email" />
 
 
@@ -38,6 +40,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:inputType="textPassword"
+        app:errorEnabled="true"
+        app:errorIconDrawable = "@null"
         android:hint="Password" />
 
     <TextView

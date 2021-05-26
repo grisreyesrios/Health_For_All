@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="loginbutton">Login</string>
     <string name="forgetpasswordbutton">Submit</string>
-    <string name="forgetpasswordtext">Introduce your email and we will send you a message to reset password</string>
+    <string name="forgetpasswordtext">An email will be sent to reset your password.</string>
     <string name="signupbutton">Sign Up</string>
     <string name="password_forget">Forget password?</string>
     <string name="signuptextview">Not registered? Sign Up</string>
